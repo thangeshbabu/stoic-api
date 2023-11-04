@@ -21,7 +21,7 @@ spec:
         app: stoic-api
     spec:
       containers:
-      - image: registry.gitlab.com/thangeshbabu/project/stoic-api:1.0.0
+      - image: docker.io/thangeshbabu/project/stoic-api:1.0.0
         imagePullPolicy: Always
         name: stoic-api-container
         ports:
